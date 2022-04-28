@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    *{margin: 0px; padding: 0px; box-sizing: border-box;}
+
+    #root {
+      width: 100vw;
+      height: 100vh;
+    }
+ 
+    .container {
+      width: inherit;
+      height: 10vh;
+      border: 1px solid black;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+     
+      
+    }
+   .blue{
+      background-color: #183153;
+    }
+
+    .container>p{
+      width: 8vw;
+      height: 5vh;
+      border-radius: 60%;
+     
+      margin-right: 4vw;
+ 
+    }
+    .gray{
+      background-color: #c4c4c4;
+    }
+  
+    
+    .container2{
+      width: 100vw;
+      height: 20vh;
+      border: 1px solid black;
+
+    }
+
+    .container2>h1{
+      width: 30vw;
+      height: inherit;
+
+      position: relative;
+      left: 45vw;
+      line-height: 5;
+
+    }
+    .container3{
+      width: 100vw;
+      height: 50vh;
+      border: 1px solid black;
+
+      display: grid;
+      justify-content: center;
+      
+    }
+
+    .container3>h6{
+      width: 20vw;
+      height: 15vh;
+      font-size: 5rem;
+      font-weight: 2;
+
+      background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 16.67%, rgba(0, 0, 0, 0.4) 64.58%, rgba(0, 0, 0, 0.4) 80.21%, rgba(0, 0, 0, 0.225) 99.98%, rgba(21, 5, 5, 0.4) 99.99%);
+      -webkit-background-clip: text;
+
+      color: transparent;
+      font-weight: bolder;
+    }
+
+
+
+    .container3>h5{
+      width: 20vw;
+      height: 15vh;
+      
+      font-size: 5rem;
+      font-weight: 2;
+      font-weight: bolder;
+    }
+
+    .container3>h4{
+      width: 20vw;
+      height: 15vh;
+      
+      font-size: 5rem;
+      font-weight: 2;
+
+      background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+
+      
+      -webkit-background-clip: text;
+
+      color: transparent;
+      font-weight: bolder;
+    }
+
+
+    .footer{
+      width: 100vw;
+      height: 20vh;
+      border: 1px solid black;
+      
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+    }
+
+    .footer>section{
+      width: 500px;
+      height: 80px;
+      border-radius: 60px;
+      background-color: #183153;
+    }
+
+    .footer>section>h4{
+      color: #fff;
+      line-height: 0.7;
+      font-size: 5rem;
+      font-weight: 2;
+
+      position: relative;
+      left: 350px;
+    }
+  </style>
+
+</head>
+
+<body>
+  <div id="root">
+  <div class="container">
+    <p class="gray"></p>
+    <p class="blue"></p>
+    <p class = "gray"></p>
+    <p class=" gray"></p>
+    <p class = "gray"></p>
+  </div>
+  <div class="container2"> 
+    <h1>나이</h1>
+  </div>
+<div class="container3">
+  <h6>24</h6>
+  <h5>25</h5>
+  <h4>26</h4>
+
+</div>
+ <div class="footer">
+   <section>
+    <h4>→</h4>
+   </section>
+ </div>
+
+  </div>
+</body>
+</html>

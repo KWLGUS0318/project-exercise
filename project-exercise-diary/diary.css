@@ -1,0 +1,87 @@
+*{margin: 0px; padding: 0px; box-sizing: border-box;}
+.root{
+  width: 100vw;
+  height: 200vh;
+  border: 1px solid black;
+}
+/*상단 메인 전체*/
+.root >div{
+  width: inherit;
+  height: 10%;
+  display: flex;
+}
+
+/*상단 메인 단락 구분*/
+
+.root>div i{
+width: 33.3%;
+height: 10vh;
+border: 1px solid blue;
+
+}
+/* 요일*/
+
+.root > section{
+  width: inherit;
+  height: 10%;
+  display: flex;
+  text-align: center;
+  line-height: 8vh;
+
+}
+.root >section p{
+margin-top: 20px;
+margin-right: 2px;
+width: 20%;
+height: 40%;
+background-color: #c4c4c4;
+border-radius: 60%;
+
+
+}
+/* 삼시세끼*/
+.root >main{
+  width: 100vw;
+  height: 30%;
+  display: flex;
+
+  position: relative;
+
+}
+/* 삼시세끼-저녁*/
+
+.root > main :nth-child(1){
+  width: 30vw;
+  height: 30vw;
+  background-color: #c4c4c4;
+
+  position: relative;
+  top: 1vw; left: 35vw;
+  z-index: 1;
+}
+/* 삼시세끼-점심*/
+.root > main :nth-child(2){
+  width: 30vw;
+  height: 30vw;
+  background-color: lightyellow;
+
+  position: relative;
+  top: 11vw; left: -5vw;
+  z-index: 2;}
+
+/* 삼시세끼-아침*/
+
+.root > main :nth-child(3){
+  width: 30vw;
+  height: 30vw;
+  background-color:plum;
+
+  position: relative;
+  top: 21vw; left: -45vw;
+  z-index: 2;}
+
+.root > aside{
+  width: inherit;
+  height: 20vw;
+  border: 1px solid black;
+}

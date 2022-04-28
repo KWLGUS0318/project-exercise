@@ -1,0 +1,83 @@
+*{margin: 0px; padding: 0px; box-sizing: border-box;}
+
+#root{
+  width: 100vw;
+  height: 300vh;
+}
+
+.container{
+  width: 100vw;
+  height: 100%;
+  margin-top: 20vw;
+  border-radius: 10vw;
+  background-color: #797777;
+
+  display: flex;
+}
+
+.container>nav{
+  width: inherit;
+  height: 20%;
+  background-color: #ffff;
+
+  position: fixed;
+  bottom: 0px;
+}
+ /* 닭가슴살 수프*/
+.container>h4{
+  width: 60vw;
+  height: 5vh;
+  background-color: #fff;
+  position: relative;
+  top: 100px; left: 20vw;
+  display: inline-block;
+
+
+ font-size: 1rem;
+ text-align: center;
+ line-height: 3rem;
+}
+
+ /* 닭가슴살 수프 이미지*/
+
+.container>img{
+  width: 30vw;
+  height: 20vh;
+  border-radius: 50%;
+  background-color: #fff;
+
+  justify-content: right;
+  position: relative;
+  top: 50px; left: 30vw;
+}
+
+
+.one{
+  width: 80vw;
+  height: 100vh;
+  background-color: #fff;
+
+
+
+  border-radius: 20px;
+  position: relative;
+  top: 40vw;
+  right: 25vw;
+
+
+}
+
+.two{
+  width: 70vw;
+  height: 80vh;
+  background-color: #fff;
+
+
+
+  border-radius: 60px;
+  position: relative;
+  top: 45vw;
+  right: 10VW;
+
+
+}

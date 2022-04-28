@@ -1,0 +1,172 @@
+*{margin: 0px; padding: 0px;
+box-sizing: border-box;}
+/*전체*/
+
+
+.root{
+  width: 100vw;
+  height: 120vh;
+  border:1px solid black;
+
+
+
+}
+
+/*첫번째 단락*/
+
+.root>div{
+  width: 100vw;
+  height: 5vh;
+  border: 1px solid black;
+}
+/*두번째 단락*/
+
+.root>h1{
+  width: 100vw;
+  height: 5vh;
+  margin-top: 1em;
+  text-align: center;
+}
+
+
+/*세번째 단락*/
+
+.root>nav{
+  width: 100vw;
+  height: 5vh;
+  margin-top: 0.5em;
+
+  display: flex;
+  justify-content: center;
+}
+
+/*진행 중, 참여완료*/
+
+.root>nav p{
+  width:30%;
+  height: 5vh;
+  background-color: gray;
+  border-radius: 30%;
+  margin-right: 6vw;
+  text-align: center;
+  line-height: 40px;
+}
+
+
+
+
+/*네번째 단락*/
+
+.root>main{
+  width: 100%;
+  height: 60vh;
+  margin-top: 2rem;
+border: 1px solid black;
+  display: flex;
+  justify-content: center;
+}
+
+/*첼린지 단락*/
+
+.root>main div {
+  width: 80%;
+  height: 60vh;
+  border: 1px solid black;
+  border-radius: 10%;
+  
+  display: flex;
+  flex-direction: column;
+  
+}
+/*첼린지 단락-1*/
+
+.root>main div :nth-child(1) {
+  width: 15%;
+  height: 10vh;
+  border: 1px solid black;
+
+  position: absolute;
+  top: 160px;
+  left: 40vw;
+
+  
+}
+/*첼린지 단락-2*/
+
+.root>main div :nth-child(2) {
+  width: 30%;
+  height: 5vh;
+
+  position: absolute;
+  top: 300px;
+  left: 35vw;
+
+  
+}
+
+/*첼린지 단락-3*/
+
+.root>main div :nth-child(3) {
+  width: 60%;
+  height: 5vh;
+  position: absolute;
+  top: 350px;
+  left: 30vw;
+
+}
+
+
+
+/*첼린지 단락-4*/
+
+.root>main div :nth-child(4) {
+  width: 18vw;
+  height: 10vh;
+  border: 1px solid green;
+  border-radius: 60%;
+
+ position: absolute;
+ top: 400px;
+ left: 40vw;
+
+}
+
+/*첼린지 단락-선택자*/
+
+.root > aside {
+  width: inherit;
+  height: 6vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*첼린지 단락-선택*/
+
+.root >aside p{
+  width: 4vw;
+  height: 2vh;
+  background-color: #c4c4c4;
+  margin-left: 2vw;
+  border-radius: 60%;
+}
+
+.root> footer{
+  width: 100vw;
+  height: 10vw;
+ background-color: #ffff;
+  position: fixed;
+ bottom: 0px;
+
+  display: flex;
+}
+
+.root >footer i{
+  width: 25%;
+  height: inherit;
+  border: 1px solid black;
+
+}
+
+

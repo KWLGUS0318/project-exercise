@@ -1,0 +1,25 @@
+*{margin: 0px; padding: 0px; box-sizing: border-box;}
+
+#root{
+  width: 100vw;
+  height: 100vh;
+  border: 1px solid black;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+  :nth-child(1){
+  width: 30vw;
+  height: 100vh;
+  background-color: #94DDED;}
+
+  }
+
+  :nth-child(2){
+  width: 70vw;
+  height: 100vh;
+  border: 1px solid black;
+  }
+
